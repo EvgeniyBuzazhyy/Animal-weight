@@ -1,0 +1,6 @@
+<!-- res/drawable/button_on.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#1c002aff" />
+    <corners android:radius="10dp" />
+</shape>

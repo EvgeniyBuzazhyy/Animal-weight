@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left|top"
+    android:gravity="center"
+    android:id="@+id/linerLayoutGroupItem">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/textViewGroupItem"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:textColor="#ff382cb8"
+            android:gravity="center"
+            android:autoText="false"
+            android:background="@drawable/button_backround" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/textViewDateGroupItem"
+                android:layout_marginLeft="40dp"
+                android:padding="2dp"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/textViewTimeGroupItem"
+                android:layout_marginLeft="55dp"
+                android:padding="2dp"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/textViewWeightGroupItem"
+                android:layout_marginLeft="30dp"
+                android:padding="2dp"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

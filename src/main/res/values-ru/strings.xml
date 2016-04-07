@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"Вес животных"</string>
+    <string name="exit">Выход</string>
+    <string name="title_pig">Свинья</string>
+    <string name="title_cow">Корова</string>
+    <string name="title_calves">Теленок</string>
+    <string name="title_storage">Сохранено</string>
+    <string name="title_info">Справка</string>
+    <string name="body_length">Длина\nтуловища</string>
+    <string name="bust">Обхват\nгруди</string>
+    <string name="weight">Вес =</string>
+    <string name="save">Сохранить</string>
+    <string name="count">Pассчитать</string>
+    <string name="text1_info_ru">
+        \t В условиях индивидуального хозяйства часто нет возможности определить живой вес крупных животных путем взвешивания, или необходимо провести экспресс-измерение в процессе роста.\n
+        \t Описаный способ определения веса не может гарантировать высокой точности, и сильно отличается для каждой породы КРС и свиней.
+        Для точного взвешивания рекомендуется использовать электронные весы для животных.\n
+        \t Для определения приблизительного живого веса можно пользоваться данной программой, исходными данными для которых являются промеры животных.\n
+        \t Для взятия промеров необходимо правильно поставить животное: ноги должны стоять вертикально, голова на уровне спины.
+        Промеры берут сантиметровой лентой, утром до кормления.\n
+        \t У коровы и теленка измеряют косую длину туловища (от плечелопаточного сочленения до корня хвоста) и обхват груди за лопатками.\n\n
+        <b>Схема промеров у коровы и теленка</b></string>
+    <string name="text2_info_ru">
+        \t У свиньи измеряют длину туловища от корня хвоста до затылочного гребня и обхват груди за лопатками. Измеряют свинью за 2-3 часа до дневного кормления. \n\n
+        <b>Схема промеров у свиньи</b></string>
+     <string name="text3_info_ru">
+        \t Получив указанные промеры, в соответствующем разделе данной программы вводим полученные величины и получаем приблизительный живой вес животного.</string>
+
+    <string name="title_item_group_pigs">Свиньи</string>
+    <string name="title_item_group_cows">Коровы</string>
+    <string name="title_item_group_calves">Телята</string>
+
+    <string name="weight_count">Вес =</string>
+    <string name="kg">кг.</string>
+    <string name="weight_is_not_known">Вес не известен</string>
+    <string name="weight_saved">Сохранено</string>
+    <string name="error">Ошибка</string>
+    <string name="weight_is_not_calculated">Вес не рассчитан</string>
+    <string name="deleted">Удален</string>
+
+    <string name="action_settings">Настройки</string>
+
+</resources>
